@@ -291,7 +291,7 @@ fieldset{border:1px solid #E6E7E8;margin-bottom:5px;}
 
 #areaHeader{display:block;}
 
-#areaHeaderImg img {width: 912px;}
+#areaHeaderImg img {max-width: 912px; height: 352px; margin: 0px auto;}
 
 #topHeader{display:block;height:57px;}
 
