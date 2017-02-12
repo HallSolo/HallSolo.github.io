@@ -52,8 +52,12 @@ a img.calendar{width:16px;height:16px;margin-left:3px;background:url(/templates/
 
 /* FILE# 2 /templates/skodapart.ru/css/template.css */
 
+@font-face {
+    font-family: "Frijole";
+    src: url(../font/Frijole-Regular.ttf) format("truetype");
+}
 
-#areaLogo #logo{ font-family: 'Frijole', cursive; font-size: 3.5em !important; text-decoration:none; text-decoration-color: #ffffff;}
+#areaLogo #logo{ font-family: 'Frijole', cursive; font-size: 2.5em !important; text-decoration:none; text-decoration-color: #ffffff;}
 
 .clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden}
 
@@ -88,6 +92,10 @@ b,strong,th,thead td{font-weight:bold;}
 pre,.code{padding:20px;display:block;background-color:#e1e1e1;border-left:6px solid #FF6C62;font-family:"Courier News",monospace;}
 
 a,a b,a span{color:#bb162b;}
+
+span.blue {color:#0066a9;}
+
+span.black {color:#e1e1e1;}
 
 p{margin:8px 0 0;}
 
@@ -283,6 +291,8 @@ fieldset{border:1px solid #E6E7E8;margin-bottom:5px;}
 
 #areaHeader{display:block;}
 
+#areaHeaderImg img {width: 912px;}
+
 #topHeader{display:block;height:57px;}
 
 #areaTopMenu{height:37px;margin-top:20px;background-color:#e1e1e1;}
@@ -303,7 +313,7 @@ fieldset{border:1px solid #E6E7E8;margin-bottom:5px;}
 
 #areaPathway{margin:0;height:18px;padding:3px 11px;border-top:1px solid #ff162b;border-bottom:1px solid #ff162b; background-color:#bb162b;}
 
-.pathway{color:#edeee8;font-size:9px;}
+.pathway{color:#edeee8;font-size:13px;}
 
 #areaLogo,#phoneArea,#searchArea,#skodaArea{float:left;}
 
@@ -441,7 +451,7 @@ ul.menu-top li{margin:9px 0 0 0;padding:0;	float:left;text-align:center;	width:1
 
 ul.menu-top li.item1{background:none;}
 
-ul.menu-top li a,ul.menu-top li a span{font-size:14px;color:#3d3d3d;text-decoration:none;}
+ul.menu-top li a,ul.menu-top li a span{font-size:14px;color:#0066a9;text-decoration:none;}
 
 ul.menu-top li#current a,ul.menu-top li#current a span{color:#bb162b;}
 
