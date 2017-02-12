@@ -1,0 +1,566 @@
+
+/* FILE# 1 /templates/system/css/general.css */.invalid{border-color:#ff0000;}
+
+label.invalid{color:#ff0000;}
+
+#editor-xtd-buttons{padding:5px;}
+
+.button2-left,.button2-right,.button2-left div,.button2-right div{float:left;}
+
+.button2-left a,.button2-right a,.button2-left span,.button2-right span{display:block;height:22px;float:left;line-height:22px;font-size:11px;color:#666;cursor:pointer;}
+
+.button2-left span,.button2-right span{cursor:default;color:#999;}
+
+.button2-left .page a,.button2-right .page a,.button2-left .page span,.button2-right .page span{padding:0 6px;}
+
+.page span{color:#000;font-weight:bold;}
+
+.button2-left a:hover,.button2-right a:hover{text-decoration:none;color:#0B55C4;}
+
+.button2-left a,.button2-left span{padding:0 24px 0 6px;}
+
+.button2-right a,.button2-right span{padding:0 6px 0 24px;}
+
+.button2-left{background:url(/templates/system/images/j_button2_left.png) no-repeat;float:left;margin-left:5px;}
+
+.button2-right{background:url(/templates/system/images/j_button2_right.png) 100% 0 no-repeat;float:left;margin-left:5px;}
+
+.button2-left .image{background:url(/templates/system/images/j_button2_image.png) 100% 0 no-repeat;}
+
+.button2-left .readmore{background:url(/templates/system/images/j_button2_readmore.png) 100% 0 no-repeat;}
+
+.button2-left .pagebreak{background:url(/templates/system/images/j_button2_pagebreak.png) 100% 0 no-repeat;}
+
+.button2-left .blank{background:url(/templates/system/images/j_button2_blank.png) 100% 0 no-repeat;}
+
+div.tooltip{float:left;background:#ffc;border:1px solid #D4D5AA;padding:5px;max-width:200px;z-index:13000;}
+
+div.tooltip h4{padding:0;margin:0;font-size:95%;font-weight:bold;margin-top:-15px;padding-top:15px;padding-bottom:5px;background:url(/templates/system/images/selector-arrow.png) no-repeat;}
+
+div.tooltip p{font-size:90%;margin:0;}
+
+.img_caption.left{float:left;margin-right:1em;}
+
+.img_caption.right{float:right;margin-left:1em;}
+
+.img_caption.left p{clear:left;text-align:center;}
+
+.img_caption.right p{clear:right;text-align:center;}
+
+a img.calendar{width:16px;height:16px;margin-left:3px;background:url(/templates/system/images/calendar.png) no-repeat;cursor:pointer;vertical-align:middle;}
+
+
+/* FILE# 2 /templates/skodapart.ru/css/template.css */
+
+
+#areaLogo #logo{ font-family: 'Frijole', cursive; font-size: 3.5em !important; text-decoration:none; text-decoration-color: #ffffff;}
+
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden}
+
+.clearfix{min-width:0;}
+
+/* targets only IE5-6 and hidden from lowly IEmac \*/* html .clearfix{height:1%;}
+
+nobr{font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;}
+
+a img{border:none;}
+
+a span,a b{cursor:pointer;}
+
+h1{color:#636061;font:20px Tahoma,Arial,Helvetica,sans-serif;}
+
+h2{color:#636061;font:18px Tahoma,Arial,Helvetica,sans-serif;;}
+
+h3{color:#636061;display:block;margin-bottom:5px;	font:16px Tahoma,Arial,Helvetica,sans-serif;}
+
+h4{color:#636061;display:block;margin-bottom:5px;	font:normal 14px Tahoma,Arial,Helvetica,sans-serif;}
+
+b,strong,th,thead td{font-weight:bold;}
+
+.hyphenate{text-align:justify;}
+
+.csscols2{-moz-column-count:2;-moz-column-gap:3em;-moz-column-rule:1px solid #BEC8CB;-webkit-column-count:2;-webkit-column-gap:3em;-webkit-column-rule:1px solid #BEC8CB;}
+
+.csscols3{-moz-column-count:3;-moz-column-gap:3em;-moz-column-rule:1px solid #BEC8CB;-webkit-column-count:3;-webkit-column-gap:3em;-webkit-column-rule:1px solid #BEC8CB;}
+
+.componentheading,.contentheading{margin:20px 0 25px 0;padding:0 5px;color:#636061;line-height:21px;border-left:2px solid #97b43e;font:20px Tahoma,Arial,Helvetica,sans-serif;}
+
+pre,.code{padding:20px;display:block;background-color:#e1e1e1;border-left:6px solid #FF6C62;font-family:"Courier News",monospace;}
+
+a,a b,a span{color:#bb162b;}
+
+p{margin:8px 0 0;}
+
+ul{list-style:none;margin-left:0;padding-left:0;}
+
+ul li{display:block;margin-left:0;padding-left:14px;background:url(/templates/skodapart.ru/images/bgUL.gif) left 5px no-repeat;}
+
+ul.type1 li{display:block;padding-left:14px;background:url(/templates/skodapart.ru/images/bgUL1.gif) left 5px no-repeat;}
+
+ul.type2 li{display:block;padding-left:14px;background:url(/templates/skodapart.ru/images/bgUL2.gif) left 5px no-repeat;}
+
+ul.type3 li{display:block;padding-left:14px;background:url(/templates/skodapart.ru/images/bgUL3.gif) left 5px no-repeat;}
+
+#system-readmore{clear:both;}
+
+.copyright{color:#999;margin-top:5px;font-size:11px;line-height:14px;text-align:center;}
+
+.moduletable h3,.moduletable-news h3,.moduletable-wbb h3{margin:0 0 25px 0;padding:0 5px;color:#636061;line-height:21px;background:none;font:20px Tahoma,Arial,Helvetica,sans-serif;}
+
+.news-title{font:bold 12px Tahoma,Arial,Helvetica,sans-serif;color:#1a699c;display:block;margin:15px 0 5px;}
+
+.phoneLabel{font:normal 11px Tahoma,Arial,Helvetica,sans-serif;padding:0 0 0 50px;}
+
+.phoneNumber{padding:0;color:#bb162b;font:bold 20px 'Frijole', cursive;}
+
+.redtext,.red-column{color:#FF6666;font-weight:bold;}
+
+.blacktext{color:#000;}
+
+.boldtext{font-weight:bold;}
+
+.tblIcons{border-collapse:collapse;}
+
+.tblIcons td{text-align:center;vertical-align:middle;width:32px;}
+
+.tblIcons td.tdCenterIcon{border-left:1px solid #C2E5EF;border-right:1px solid #C2E5EF;}
+
+.img_wborder_red{padding:1px;background-color:#FFF;border:4px solid #FE4A4B;}
+
+.img_wborder_blue{padding:1px;background-color:#FFF;border:4px solid #C8EBF8;}
+
+.img_marginall10px{margin:10px;}
+
+.img_marginall5px{margin:5px;}
+
+.img_marginright10px{margin-right:10px;}
+
+.img_marginleft10px{margin-left:10px;}
+
+.img_manager-photo{padding:1px;background-color:#FFF;border:4px solid #C8EBF8;margin-right:15px;}
+
+.articleFrom{text-align:right;color:#999;}
+
+.priceTable{border-collapse:collapse;background-color:#FFF;}
+
+.priceTable tbody td{}
+
+.priceTable thead td,.priceTable th{text-align:center;font-weight:bold;}
+
+.priceTable td,.priceTable th{border:2px solid #1897C0;padding:1px 5px;}
+
+th.th_left{text-align:left;}
+
+.priceCell{text-align:right;}
+
+.centerCell{text-align:center;}
+
+.numberCell{text-align:right;}
+
+td.subitemCell{padding-left:20px;}
+
+.centerCells td,.centerCells th{text-align:center;}
+
+.centerCells td,.centerCells th,.centerCells td a,.priceTable td,.priceTable th,.priceTable td a,.serviceTable td,.serviceTable th,.serviceTable td a{font-size:11px;}
+
+.serviceTable{border:2px solid #1897C0;border-collapse:collapse;background-color:#FFF;}
+
+.serviceTable thead td,.serviceTable th{text-align:center;font-weight:bold;}
+
+.serviceTable td,.serviceTable th{border:2px solid #1897C0;padding:1px 5px;}
+
+.serviceTable th.th_left{text-align:left;}
+
+.serviceTable th.groupCell,.serviceTable td.groupCell{text-align:left;border-bottom:1px solid #fff;}
+
+.serviceTable td.priceCell{text-align:right;}
+
+.serviceTable td.priceCellWB{text-align:right;border-top:1px solid #fff;border-bottom:2px solid #1897C0;}
+
+.serviceTable td.centerCell{text-align:center;}
+
+.serviceTable td.numberCell{text-align:right;border:2px solid #1897C0;}
+
+.serviceTable td.subitemCell1,.serviceTable td.subitemCell2,.serviceTable td.priceCell{border-top:1px solid #fff;border-bottom:1px solid #fff;}
+
+.serviceTable td.subitemCell1{padding-left:20px;}
+
+.serviceTable td.subitemCell2{padding-left:40px;}
+
+.footnote{font-size:10px;}
+
+.tableInfo td,.tableInfo th{padding:0 5px;}
+
+.highlight{background-color:#97b43e;padding:1px 3px;font-weight:bold;color:#fff;}
+
+.small,.createdate,.createby{font-size:11px;}
+
+div.bubble1,div.bubble2,div.bubble3,div.bubble4{margin:15px 0;}
+
+div.bubble1 span.author{font-weight:bold;margin-left:5px;}
+
+div.bubble2 span.author{font-weight:bold;margin-left:15px;}
+div.bubble1 div{background:url(/templates/skodapart.ru/images/bub1-br.gif) no-repeat bottom right;margin:0;width:100%;}
+
+div.bubble1 div div{background:url(/templates/skodapart.ru/images/bub1-bl.gif) no-repeat bottom left;}
+
+div.bubble1 div div div{background:url(/templates/skodapart.ru/images/bub1-tr.gif) no-repeat top right;}
+
+div.bubble1 div div div div{background:url(/templates/skodapart.ru/images/bub1-tl.gif) no-repeat top left;}
+
+div.bubble1 div div div div div{margin:0;padding:10px 10px 25px 20px;width:auto;}
+
+div.bubble2 div{background:url(/templates/skodapart.ru/images/bub2-br.gif) no-repeat bottom right;margin:0;width:100%;}
+
+div.bubble2 div div{background:url(/templates/skodapart.ru/images/bub2-bl.gif) no-repeat bottom left;}
+
+div.bubble2 div div div{background:url(/templates/skodapart.ru/images/bub2-tr.gif) no-repeat top right;}
+
+div.bubble2 div div div div{background:url(/templates/skodapart.ru/images/bub2-tl.gif) no-repeat top left;}
+
+div.bubble2 div div div div div{margin:0;padding:15px 25px 25px 25px;width:auto;}
+
+.stickynote{background:url(/templates/skodapart.ru/images/sticky-bg.gif) no-repeat 5px center #FFFFFF;border:1px solid #BEC8CB;padding:15px 10px 15px 95px;}
+
+.download{background:url(/templates/skodapart.ru/images/icon-download.gif) no-repeat 5px center #FFFFFF;border:1px solid #BEC8CB;padding:15px 10px 15px 95px;}
+
+blockquote{padding:1em 40px 1em 15px;}
+
+blockquote span.open{background:url(/templates/skodapart.ru/images/so-q.gif) no-repeat left top;padding:2px 0 2px 25px;}
+
+blockquote span.close{background:url(/templates/skodapart.ru/images/sc-q.gif) no-repeat bottom right;padding:2px 25px 2px 0;}
+
+.dropcap{color:#000;display:block;float:left;font:60px/58px Georgia,Times,serif;padding:0 10px 0 0;}
+
+.error{background:url(/templates/skodapart.ru/images/icon-error.gif) no-repeat 0px 4px;color:#FF6C62;padding-left:25px;padding-bottom:2px;}
+
+.message{background:url(/templates/skodapart.ru/images/icon-info.gif) no-repeat 0px 4px;color:#1279C4;padding-left:25px;padding-bottom:2px;}
+
+.tips{background:url(/templates/skodapart.ru/images/icon-tips.gif) no-repeat 3px 4px;color:#4FC195;padding-left:25px;padding-bottom:2px;}
+
+.feed{background:url(/templates/skodapart.ru/images/icon-rss.gif) no-repeat 0px 4px;padding:3px 0 3px 25px;color:#595959;}
+
+.blocknumber{clear:both;padding:5px 15px 10px;position:relative;}
+
+.bignumber{float:left;width:35px;height:40px;color:#000;display:block;padding:2px 0 0 8px;margin-right:0px;font:bold 20px/normal Arial,sans-serif;background:url(/templates/skodapart.ru/images/ol-bg.gif) no-repeat top left;}
+
+.legend-title{background:#E8E8E9;display:block;font:bold 100% Tahoma,Arial,Helvetica,sans-serif;float:left;left:7px;margin:0;padding:0 3px 2px 3px;position:absolute;top:-8px;}
+
+.legend{border:1px solid #BEC8CB;margin:20px 0;padding:0 10px 8px 10px;position:relative;}
+
+.clearBoth{clear:both;}
+
+.clearLeft{clear:left;}
+
+.clearRight{clear:right;}
+
+.contentTable1 td{padding:5px;border-bottom:1px solid #cebca4;}
+
+.contentTable1 td ul{margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;}
+
+.contentTable1 .cellLabel{font-weight:bold;width:150px;}
+
+body.contentpane .buttonheading{text-align:center;}
+
+#ajaxcontact .message{background:none;}
+
+
+/* FILE# 3 /templates/skodapart.ru/css/layout.css */html{text-align:center;padding:0;margin:0;}
+
+body{margin:15px 0;padding:0;background-color:#fff;}
+
+form{margin:0;padding:0;}
+
+fieldset{border:1px solid #E6E7E8;margin-bottom:5px;}
+
+#areaBody,#areaHeader,#areaFooter{display:block;text-align:left;margin:0 auto;padding:0;width:912px;background:#fff;}
+
+#areaBody{margin-top:0;margin-bottom:0;padding-top:14px;padding-bottom:20px;}
+
+#areaBody.bodyAreaR{background:transparent url(/templates/skodapart.ru/images/bg_rightcol.gif) right top repeat-y;}
+
+#areaInfo{}
+
+#areaHeader{display:block;}
+
+#topHeader{display:block;height:57px;}
+
+#areaTopMenu{height:37px;margin-top:20px;background-color:#e1e1e1;}
+
+#areaFooter{clear:right;height:48px;padding-top:10px;border-top:7px solid #bb162b;}
+
+#areaLegals{float:left;width:195px;padding-left:5px;}
+
+#areaLegals,#areaAddress,#areaCounters,#areaLegals *,#areaAddress *,#areaCounters *{line-height:11px;color:#707173;}
+
+#areaLegals a,#areaAddress a,#areaCounters a{color:#707173;}
+
+#areaPhone{position:absolute;top:27px;left:245px;color:#005EA3;font-weight:bold;}
+
+#modulsArea{clear:both;padding:0 0 10px 11px;margin-bottom:10px;border-bottom:7px solid #707070;}
+
+#areaUser7,#areaUser8,#areaUser9,#areaUser10{float:left;width:213px;margin:4px;}
+
+#areaPathway{margin:0;height:18px;padding:3px 11px;border-top:1px solid #ff162b;border-bottom:1px solid #ff162b; background-color:#bb162b;}
+
+.pathway{color:#edeee8;font-size:9px;}
+
+#areaLogo,#phoneArea,#searchArea,#skodaArea{float:left;}
+
+#areaLogo{width:500px;}
+
+#phoneArea{width:280px;}
+
+#searchArea{width:235px;}
+
+#skodaArea{width:140px;text-align:right;}
+
+#phoneArea{padding-top:17px;}
+
+#searchArea{padding-top:19px;}
+
+#searchArea{text-align:center;}
+
+#searchForm{text-align:center;}
+
+#searchForm table.contentpaneopen{width:400px;margin:0 auto;}
+
+#searchForm #limit{margin-right:5px;}
+
+#mod_search_searchword{width:170px;	color:#535353;padding:2px 20px 1px 2px;border:1px solid #e1e1e1;background:url(/templates/skodapart.ru/images/search.gif) right no-repeat;}
+
+#search_searchword{width:400px;}
+
+.searchintro{display:none;}
+
+.article-tools{width:100%;float:left;clear:both;display:block;margin:0;}
+
+.article-meta{margin:0;width:80%;float:left;}
+
+.article-section a{color:#cebca4;font-size:11px;font-weight:normal;}
+
+.article-content{clear:both;}
+
+.createdate{color:#a1a1a1;font-size:9px;font-weight:normal;margin:0;padding:0;}
+
+.createdate-news{float:left;color:#595657;}
+
+.createdate-news .newsday{font-size:26px;color:#262626;}
+
+.modifydate{width:100%;float:left;}
+
+#areaBody .moduletable,#areaBody .moduletable-news,#areaBody .moduletable-wbb{margin-top:20px;}
+
+.colHalf{display:block;float:left;width:49%;margin:0 3px;}
+
+#areaBody.bodyAreaR .colHalf{width:48.5%;}
+
+.colFull{display:block;margin:0 2px;}
+
+#columnCenter{}
+
+.colContentR{margin:0 0 0 11px;width:561px;float:left;}
+
+.colContentFull{margin:0 11px;}
+
+#columnRight{float:right;width:256px;margin-right:25px;padding-bottom:15px;}
+
+#columnRight a{color:#003c25;}
+
+#areaBody .moduletable h3,#areaBody .moduletable-news h3,#areaBody .moduletable-wbb h3{border-left:2px solid #bb162b;}
+
+#areaBody .moduletable-news table{margin:0;padding:0;}
+
+#areaBody .moduletable-news table td{padding:0;}
+
+#areaBody .moduletable-news h3{margin-bottom:25px;}
+
+#areaBody .moduletable-news .article_separator{display:none;}
+
+#areaBody .moduletable-news table td *{line-height:16px;}
+
+.info-news{display:block;margin-left:50px;}
+
+.latestnews-text,.readon-news{padding:0;display:block;}
+
+.latestnews-text,.title-news{margin:0;padding:0;}
+
+.title-news{padding-top:6px;font-weight:bold;}
+
+.title-news a{font-weight:bold;}
+
+.readon-news{margin:0 0 20px 0;}
+
+#system-message{margin-bottom:10px;padding:0;}
+
+#system-message dt{font-weight:bold;}
+
+#system-message dd{margin:0;font-weight:bold;text-indent:30px;}
+
+#system-message dd ul{color:#0055BB;margin-bottom:10px;list-style:none;padding:10px;border-top:3px solid #84A7DB;border-bottom:3px solid #84A7DB;}
+
+#system-message dt.error{display:none;}
+
+#system-message .error{background:none;padding:0;margin:0;}
+
+#system-message dd.error ul{color:#c00;border-top:3px solid #DE7A7B;border-bottom:3px solid #DE7A7B;background-color:#E6C0C0;}
+
+#system-message dd.error ul li{background:#E6C0C0 url(/templates/skodapart.ru/images/icon-error.gif) left no-repeat;padding-left:0px;}
+
+#system-message dd.error.message{background:none;padding-left:0;}
+
+#system-message dt.notice{display:none;}
+
+#system-message dd.notice ul{color:#c00;background:#EFE7B8;border-top:3px solid #F0DC7E;border-bottom:3px solid #F0DC7E;}
+
+#system-message dd.notice ul li{background:#E6C0C0 url(/templates/skodapart.ru/images/icon-info.gif) left no-repeat;}
+
+#system-debug{color:#ccc;background-color:#fff;padding:10px;margin:10px;}
+
+#system-debug div{font-size:11px;}
+
+ul.menu{margin:0;height:37px;list-style:none;}
+
+ul.menu li{margin:0;padding:0 0 3px 0;display:block;list-style:none;background:none;}
+
+ul.menu li ul{margin-left:12px;}
+
+ul.menu li ul li{display:block;padding:2px 0 3px 10px;background:url(/templates/skodapart.ru/images/indent1.png) left 2px no-repeat;}
+
+ul.menu li.active a,ul.menu li.active a span{color:#01581c;}
+
+ul.menu li a,ul.menu li a span{color:#3d3d3d;font:bold 11px Tahoma,Arial,Helvetica,sans-serif;text-transform:none;}
+
+ul.menu li a:hover,ul.menu li a:hover span{}
+
+ul.menu li ul li a,ul.menu li ul li a span{font-weight:normal;}
+
+ul.menu-top,ul.menu-bm{margin:0;list-style:none;}
+
+ul.menu-top li{margin:9px 0 0 0;padding:0;	float:left;text-align:center;	width:130px;background:url(/templates/skodapart.ru/images/bg-menu.gif) left no-repeat;}
+
+ul.menu-top li.item1{background:none;}
+
+ul.menu-top li a,ul.menu-top li a span{font-size:14px;color:#3d3d3d;text-decoration:none;}
+
+ul.menu-top li#current a,ul.menu-top li#current a span{color:#bb162b;}
+
+ul.menu-top li a:hover,ul.menu-top li a:hover span{text-decoration:underline;}
+
+ul.menu-bm li{margin:0;padding:0 10px;float:left;text-align:center;background:url(/templates/skodapart.ru/images/bg-menu-bm.gif) left 6px no-repeat;}
+
+ul.menu-bm li.item1{background:none;}
+
+ul.menu-bm li a,ul.menu-bm,li a span{color:#3d3d3d;text-transform:uppercase;}
+
+ul.menu-bm li#current a,ul.menu-bm li#current a span{color:#01581c;}
+
+.poll td{text-align:left;vertical-align:top;}
+
+.pollstableborder{margin:0 0 10px 10px;}
+
+.pollstableborder td{vertical-align:top;}
+
+.pollstableborder .sectiontableentry2,.pollstableborder .sectiontableentry1{padding:2px 0 0 0;}
+
+.poll thead td{}
+
+.poll .button{}
+
+input.button{}
+
+#areaAddress{float:right;width:170px;margin-left:5px;text-align:right;}
+
+#areaAddress table td{padding:0;}
+
+#areaCounters{float:right;}
+
+.contentpaneopen{width:100%;}
+
+.blog .contentheading,.blog .contentheading a{margin:0;padding:0;background:none;border:none;font:16px Tahoma,Arial,Helvetica,sans-serif;}
+
+.blog .img_spec{float:left;}
+
+#chrono_verification{}
+
+.input_field,.input_image{display:block;}
+
+.input_field input{width:117px;}
+
+.input_image{margin-top:3px;}
+
+.input_image img{padding:1px;border:1px solid #7f9db9;}
+
+.obj-hidden{display:none;}
+
+ul.latestnews,ul.latestnews p,.blog p{margin:0;padding:0;}
+
+ul.latestnews .latestnewsdate{font-size:10px;color:#000;}
+
+.latestnews_title{padding-left:10px;background:url(/templates/skodapart.ru/images/bgULNews.gif) left 2px no-repeat;}
+
+.latestnews_title a{font-weight:bold;color:#005EA3;}
+
+li.latestnews{padding-left:0;background:none;}
+
+.createby{color:#FF6C62;font-weight:bold;}
+
+.modifydate{color:#005EA3;}
+
+.readon{}
+
+.category-description,.section-description{padding-bottom:15px;}
+
+.column_separator{padding-left:5px;}
+
+.votitaly-box{font-size:10px;}
+
+.votitaly-inline-rating{margin:0 auto 3px auto;}
+
+input.inputbox{height:14px;line-height:14px;font-size:11px;border:1px solid #7f9db9;}
+
+.pagination{color:#000;text-align:center;background:url(/templates/skodapart.ru/images/bg-pagination.gif) repeat-x;padding-top:10px;}
+
+.pagination a,.pagination a:hover,.pagination span{margin:0 3px;}
+
+.pagination a,.pagination a:hover{color:#1a699c;font-weight:bold;text-decoration:none;}
+
+.pagination p{font-weight:bold;color:#1a699c;}
+
+.pagination a.b,.pagination a.b:hover{color:#009eff;text-decoration:underline;}
+
+.pagination a.b:hover{text-decoration:none;}
+
+.pagination .l{font-weight:normal !important;}
+
+.cat-list{background:#e7f7fe;border:1px solid #c6c6c6;padding:0;}
+
+.cat-list ul{margin:0;padding:0;}
+
+.cat-list li{list-style:none;display:block;float:left;text-align:center;background:none;padding:5px 0 5px 0;width:30%;}
+
+.cat-list a,.cat-list a:hover{color:#1a699c;font-weight:bold;text-decoration:none;}
+
+.cat-list .spacer{display:none;}
+
+.moduletable-banner{border:1px solid #956939;margin-bottom:9px;}
+
+.hdr-no-margin h3{margin-bottom:15px;}
+
+.inputbox{border:1px solid #7f9db9;}
+
+.module-bottom-margin{margin-bottom:30px;}
+
+.content-menu{float:right;margin-top:-43px;}
+
+.modadvert{padding-left:275px;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;background:#467eaf url(/templates/skodapart.ru/images/open_shop.jpg) left no-repeat;}
+
+.modadvert span{color:#fff;font-family:Georgia,serif;}
+
+.modadvert a{color:#ffff99;font-size:14px;}
+
+#columnRight ul.menu{height:auto;}
+
+
+
+/* FILE# 4 /templates/skodapart.ru/css/print.css */.noprint,body.contentpane .buttonheading{display:none;visibility:hidden;}

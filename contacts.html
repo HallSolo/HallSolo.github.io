@@ -1,0 +1,126 @@
+<!DOCTYPE html><!-- HTML5 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru">
+	<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
+<!--		<link rel="stylesheet" type="text/css" href="style/reset.css" media="screen,print" />
+		<link rel="stylesheet" type="text/css" href="style/print.css" media="print" />
+		<link rel="stylesheet" type="text/css" href="style/style.css" media="screen,print" />
+		<link rel="stylesheet" type="text/css" href="style/template.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="style/menu.css" media="screen" />
+-->
+        <link href='http://fonts.googleapis.com/css?family=Frijole' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/521cc1ccdcab2275bde0a0758cd5968b.css" media="screen" />
+		<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="style/ie.css" media="screen" /><![endif]-->
+        <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<!--		<script type="text/javascript" src="res/swfobject.js"></script>
+		<script type="text/javascript" src="res/jquery.js?1975"></script>
+		<script type="text/javascript" src="res/x5engine.js?1975"></script>
+		<script type="text/javascript" src="res/x5cartengine.js?1975"></script>
+		<script type="text/javascript" src="res/l10n.js?1975_635656885906173442"></script>
+		<script type="text/javascript" src="res/x5settings.js?1975_635656885906173442"></script>
+        -->
+
+		<title>сто71</title>
+
+
+	</head>
+	<body>
+
+    <div id="areaHeader" class="clearfix">
+        <div id="topHeader">
+            <div id="areaLogo">
+                <a style="text-decoration:none;" href="index.html">
+                    <span id="logo"> CTO71 <span>
+                </a>
+            </div>
+            <div id="phoneArea">
+                <div class="phoneNumber" title="Киевское шоссе, 1 км от МКАД">8 (985) 685-72-83
+                </div>
+            </div>
+        </div>
+
+
+<div id="areaTopMenu">
+<ul class="menu-top">
+<li class="active item1">
+<a href="index.html">
+<span>Главная
+</span>
+</a>
+</li>
+<li class="parent item3">
+<a href="service.html">
+<span>Прайс-лист
+</span>
+</a>
+</li>
+<li id="current" class="item6">
+<a href="contacts.html">
+<span>Контакты
+</span>
+</a>
+</li>
+</ul>
+</div>
+        <div id="areaHeaderImg">
+            <img alt="Главная страница SkodaPart.ru" src="img/tex.jpg" width="912" />
+        </div>
+        <div id="areaPathway">
+            <span class="breadcrumbs pathway">Контакты
+            </span>
+        </div>
+    </div>
+
+<div id="areaBody" class="clearfix bodyAreaR">
+<div id="areaInfo" class="clearfix">
+<div id="columnCenter" class="colContentR">
+<div id="areaTop">
+<div class="moduletable">
+<h3>Контакты
+</h3>
+
+<p>Техцентр расположен на территории Торгового комплекса "Авто-Мастер"</p>
+<p>г. Москва ЮАО, м.Теплый стан - м.Юго-Западная. Киевское шоссе, 1 км. от МКАД</p>
+<p>GPS координаты для автонавигаторов</p>
+<p>Широта N 55.627702 Долгота E 37.434684</p>
+<p>Режим работы: Пон.-Вскр. с 9.00 до 20.00 тел. 8 (985) 685-72-83</p>
+
+<br/><br/>
+
+<center>
+<div id="map" style="width:600px; height:400px;"></div>
+</center>
+
+</div>
+		<div id="areaFooter">
+			<div style="text-align:right;">
+                HallSolo &#169; 2015
+			</div>
+		</div>
+        <script type="text/javascript">
+
+        var myMap;
+
+       ymaps.ready(init);
+
+       function init () {
+           var myMap = new ymaps.Map("map", {
+               center: [55.627702, 37.434684],
+               zoom: 15
+           }),
+               myPlacemark = new ymaps.Placemark([55.627702, 37.434684], {
+                   // Чтобы балун и хинт открывались на метке, необходимо задать ей определенные свойства.
+               balloonContentHeader: "СТО71",
+               balloonContentBody: "г. Москва ЮАО, м.Теплый стан - м.Юго-Западная. Киевское шоссе, 1 км. от МКАД",
+               });
+
+           myMap.geoObjects.add(myPlacemark);
+
+       }
+
+
+        </script>
+
+	</body>
+</html>
