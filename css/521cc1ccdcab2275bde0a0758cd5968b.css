@@ -91,11 +91,13 @@ b,strong,th,thead td{font-weight:bold;}
 
 pre,.code{padding:20px;display:block;background-color:#e1e1e1;border-left:6px solid #FF6C62;font-family:"Courier News",monospace;}
 
-a,a b,a span{color:#bb162b;}
+a,a b,a span{color:#e1e1e1;}
 
 span.blue {color:#0066a9;}
 
 span.black {color:#e1e1e1;}
+
+span.red {color:#bb162b;}
 
 p{margin:8px 0 0;}
 
