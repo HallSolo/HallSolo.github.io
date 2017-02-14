@@ -1,0 +1,73 @@
+
+@font-face {
+    font-family: "KiaMedium";
+    src: url(../font/KIA-Medium.woff) format("woff");
+}
+
+section#header {
+    padding-top: 5vh;
+}
+
+section#header a {
+    text-decoration: none;
+}
+
+section#header #areaLogo h2#logo{
+    font-family: 'KiaMedium', cursive;
+    font-size: 2em !important;
+    text-decoration:none;
+    color: #a0a0a0;
+}
+
+section#header #phoneArea h3#phoneNumber{
+    font-family: 'KiaMedium', cursive;
+    font-size: 1.5em !important;
+    padding: 0.25em 0;
+    text-align: right;
+    word-wrap: normal
+    text-decoration:none;
+    color: #0066a9;
+}
+
+section#header nav {
+    background-color: #eaeaea;
+}
+
+.blue {color:#0066a9;}
+
+.gray {color:#e1e1e1;}
+
+.red {color:#bb162b;}
+
+p {
+    text-align: justify;
+}
+
+section#text .pathWay {
+    font-family: 'KiaMedium', cursive;
+    background-color: #bb162b;
+    padding: 0.25em 1em;
+    font-size: 1.5em;
+}
+
+section#text #service,
+section#text #contacts {
+    display: none;
+}
+
+section#text h3{
+    border-left:2px solid #bb162b;
+    padding-left: 1em;
+}
+
+section#text #areaHeaderImg,
+section#text img#main-img {
+    height: 352px;
+    position: relative;
+}
+
+section#footer {
+    height: 3em;
+    padding: 1em;
+    border-top:5px solid #bb162b;
+}
