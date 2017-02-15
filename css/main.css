@@ -4,6 +4,13 @@
     src: url(../font/KIA-Medium.woff) format("woff");
 }
 
+section#text .container {
+    background: #f2f2f2;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+}
+
 section#header {
     padding-top: 5vh;
 }
@@ -26,14 +33,18 @@ section#header #phoneArea h3#phoneNumber{
     text-align: right;
     word-wrap: normal
     text-decoration:none;
-    color: #0066a9;
+    color: #003082;
 }
 
 section#header nav {
-    background-color: #eaeaea;
+    background-color: #bb162b;
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.3);
+    z-index: 150;
 }
 
-.blue {color:#0066a9;}
+.blue {color:#003082;}
 
 .gray {color:#e1e1e1;}
 
@@ -43,6 +54,10 @@ p {
     text-align: justify;
 }
 
+body {
+    background: url('../img/grey_wash_wall.png');
+}
+
 section#text .pathWay {
     font-family: 'KiaMedium', cursive;
     background-color: #bb162b;
@@ -50,9 +65,16 @@ section#text .pathWay {
     font-size: 1.5em;
 }
 
+section#text #main,
 section#text #service,
 section#text #contacts {
     display: none;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #f2f2f2;
+    border-color: #999 #999 #f2f2f2;
+    color: #464a4c;
 }
 
 section#text h3{
@@ -69,5 +91,21 @@ section#text img#main-img {
 section#footer {
     height: 3em;
     padding: 1em;
-    border-top:5px solid #bb162b;
+/*   border-top:5px solid #bb162b; */
 }
+
+.bar caption {
+    caption-side: top !important;
+    background-color: #bb162b;
+    color: #fff;
+}
+
+.not-open {
+    display: none;
+}
+
+/*
+.bar {
+    display: none;
+}
+*/
